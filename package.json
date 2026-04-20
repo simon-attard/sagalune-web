@@ -1,0 +1,9 @@
+{
+  "name": "sagalune-web",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Sagalune pre-launch waitlist landing page",
+  "engines": {
+    "node": ">=20.x"
+  }
+}

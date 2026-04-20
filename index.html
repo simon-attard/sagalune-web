@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Sagalune — Every road has a story.</title>
+<meta name="description" content="AI narration of the places you drive past — hands-free, in real time, wherever you go. iOS + Android. Coming soon.">
+<link rel="canonical" href="https://sagalune.com/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://sagalune.com/">
+<meta property="og:title" content="Sagalune — Every road has a story.">
+<meta property="og:description" content="AI narration of the places you drive past — hands-free, in real time, wherever you go.">
+<meta property="og:image" content="https://sagalune.com/og-image.png">
+<meta property="og:site_name" content="Sagalune">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://sagalune.com/">
+<meta name="twitter:title" content="Sagalune — Every road has a story.">
+<meta name="twitter:description" content="AI narration of the places you drive past — hands-free, in real time, wherever you go.">
+<meta name="twitter:image" content="https://sagalune.com/og-image.png">
+
+<meta name="theme-color" content="#2D6A4F">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="hero">
+  <div class="hero-photo">
+    <span class="hills-far"></span>
+    <span class="hills-mid"></span>
+    <span class="trees"></span>
+    <span class="horizon-line"></span>
+    <span class="road"></span>
+    <span class="rays"></span>
+    <span class="grain"></span>
+    <span class="pillar-l"></span>
+    <span class="pillar-r"></span>
+    <span class="mirror"></span>
+    <span class="dash"></span>
+  </div>
+  <div class="hero-overlay"></div>
+
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a href="#" class="brand" aria-label="Sagalune home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32" fill="none">
+            <circle cx="16" cy="16" r="10" fill="#F4A261"/>
+            <circle cx="20" cy="13" r="10" fill="#FAF7F2"/>
+          </svg>
+        </span>
+        <span class="brand-word">Sagalune</span>
+      </a>
+      <div class="nav-links">
+        <a href="#about" class="about-link">About</a>
+        <a href="#founders" class="about-link">Founding Explorer</a>
+        <a href="#hero" class="nav-cta">Join the waitlist</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container hero-inner">
+    <div class="hero-meta">
+      <span class="line"></span>
+      <span class="eyebrow"><span class="dot"></span>Waitlist · Summer 2026</span>
+    </div>
+    <h1 id="headline">
+      <span class="word">Every</span> <span class="word">road</span> <span class="word">has</span> <span class="word">a</span> <span class="word"><em>story.</em></span>
+    </h1>
+    <p class="subhead">AI narration of the places you drive past — hands-free, in real time, wherever you go.</p>
+
+    <form class="waitlist" id="waitlist-form" novalidate>
+      <div class="row">
+        <input type="email" id="email" name="email" placeholder="your@email.com" required autocomplete="email">
+        <button type="submit">Join the waitlist</button>
+      </div>
+      <div class="waitlist-error">Please enter a valid email address.</div>
+      <div class="waitlist-helper">
+        <span class="avatars"><span></span><span></span><span></span></span>
+        <span><strong id="waitlist-count">1,247</strong> curious drivers already on the list</span>
+      </div>
+      <div class="waitlist-success">
+        <div class="waitlist-success-check">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="#FAF7F2" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 10 8 14 16 6"/></svg>
+        </div>
+        <h4>You're on the list.</h4>
+        <p>Check your inbox to confirm — we'll send a personal email when Sagalune is ready for you.</p>
+        <div class="waitlist-success-pass">
+          <strong>Founding Explorer slot held</strong>
+          Slot #<span id="success-slot">348</span> of 500 · £59.99 lifetime deal locked in at launch.
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <div class="hero-scroll">
+    <span>Scroll</span>
+    <span class="tick"></span>
+  </div>
+</section>
+
+<!-- ============ WHAT IT IS ============ -->
+<section class="section" id="about">
+  <div class="container">
+    <header class="section-header reveal">
+      <div class="eyebrow"><span class="dot"></span>What Sagalune is</div>
+      <h2>A knowledgeable friend <em>in the passenger seat.</em></h2>
+      <p class="lead">Sagalune narrates the history, nature, and hidden stories of the places you pass — generated live as you drive. No pre-planned routes. No dead zones. Just stories, on any road, in any country.</p>
+    </header>
+
+    <div class="three-col reveal-stagger">
+      <div class="col">
+        <div class="col-num">01 / Stories</div>
+        <svg class="col-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M8 10 L8 38 L24 34 L40 38 L40 10 L24 14 Z"/>
+          <path d="M24 14 L24 34"/>
+        </svg>
+        <h3>Stories, not tours.</h3>
+        <p>Not a pre-recorded audio tour. Every narration is generated fresh for where you actually are, right now.</p>
+      </div>
+      <div class="col">
+        <div class="col-num">02 / Coverage</div>
+        <svg class="col-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="24" cy="24" r="18"/>
+          <path d="M6 24 L42 24"/>
+          <path d="M24 6 C30 14 30 34 24 42 C18 34 18 14 24 6"/>
+        </svg>
+        <h3>Any road, any country.</h3>
+        <p>Motorways, back roads, and countryside you've never heard of. The app goes where you go.</p>
+      </div>
+      <div class="col">
+        <div class="col-num">03 / Hands-free</div>
+        <svg class="col-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M14 20 C14 14 18 10 24 10 C30 10 34 14 34 20 L34 26"/>
+          <path d="M10 22 L10 30 C10 32 11 33 13 33 L14 33 L14 20"/>
+          <path d="M38 22 L38 30 C38 32 37 33 35 33 L34 33 L34 20"/>
+          <path d="M14 33 C14 38 18 40 24 40 C30 40 34 38 34 33"/>
+        </svg>
+        <h3>Hands-free by design.</h3>
+        <p>Built for driving. Your eyes stay on the road. Your ears get the story.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ HOW IT WORKS ============ -->
+<section class="howitworks">
+  <div class="container">
+    <header class="section-header reveal">
+      <div class="eyebrow"><span class="dot"></span>How it works</div>
+      <h2>Three things happen <em>as you drive.</em></h2>
+    </header>
+
+    <div class="steps reveal-stagger">
+      <div class="step">
+        <div class="step-num">I.</div>
+        <div class="step-title">You set off.</div>
+        <div class="step-desc">Tap start. Pop the phone in the cradle. Sagalune rides along quietly.</div>
+        <div class="step-visual step-viz-road"></div>
+      </div>
+      <div class="step">
+        <div class="step-num">II.</div>
+        <div class="step-title">A place finds you.</div>
+        <div class="step-desc">As you pass a village, a ruin, a river — Sagalune notices and writes something worth hearing.</div>
+        <div class="step-visual step-viz-place">
+          <span class="ripple"></span>
+          <span class="ripple"></span>
+          <span class="ripple"></span>
+          <span class="pin"></span>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">III.</div>
+        <div class="step-title">The story plays.</div>
+        <div class="step-desc">A warm voice tells you something specific — a date, a legend, a detail nobody mentions. Then it's quiet again.</div>
+        <div class="step-visual step-viz-audio">
+          <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+          <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+          <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+          <span class="bar"></span><span class="bar"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOUNDING EXPLORER ============ -->
+<section class="founders" id="founders">
+  <div class="container founders-inner">
+    <div class="reveal">
+      <div class="eyebrow"><span class="dot"></span>The Founding Explorer</div>
+      <h2>The first five hundred <em>get every story, forever.</em></h2>
+      <p>The first 500 waitlist members can unlock our Founding Explorer pass at launch — a £59.99 lifetime deal, every premium feature forever. Everyone else gets early access to the app and a personal email when we're ready for you.</p>
+      <button class="founders-cta" onclick="document.getElementById('email').focus(); window.scrollTo({top:0,behavior:'smooth'})">
+        Join the waitlist <span class="arrow">↗</span>
+      </button>
+    </div>
+
+    <div class="pass reveal">
+      <div class="pass-head">
+        <div class="pass-label">
+          Sagalune · Pass
+          <strong>Founding Explorer</strong>
+        </div>
+        <svg class="pass-moon" viewBox="0 0 36 36" fill="none" aria-hidden="true">
+          <circle cx="18" cy="18" r="12" fill="currentColor"/>
+          <circle cx="22" cy="15" r="12" fill="var(--cream)"/>
+        </svg>
+      </div>
+      <div class="pass-price">
+        £59.99
+        <small>Lifetime · paid once at launch</small>
+      </div>
+      <div class="pass-bar">
+        <div class="pass-bar-meta">
+          <span><b id="slot-count">153</b> slots left</span>
+          <span>347 / 500 claimed</span>
+        </div>
+        <div class="pass-bar-track">
+          <div class="pass-bar-fill" id="bar-fill"></div>
+        </div>
+      </div>
+      <ul class="pass-list">
+        <li>Every premium feature — forever</li>
+        <li>First access before public launch</li>
+        <li>Founding Explorer badge in-app</li>
+        <li>A personal note from Simon when we ship</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="#" class="brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 32 32" fill="none">
+              <circle cx="16" cy="16" r="10" fill="#F4A261"/>
+              <circle cx="20" cy="13" r="10" fill="#FAF7F2"/>
+            </svg>
+          </span>
+          <span class="brand-word">Sagalune</span>
+        </a>
+        <div class="tagline">Every road has a story.</div>
+      </div>
+      <div class="footer-col">
+        <h5>Sagalune</h5>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#founders">Founding Explorer</a></li>
+          <li><a href="#hero">Join the waitlist</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Follow</h5>
+        <ul>
+          <li><a href="https://instagram.com/sagalune" rel="noopener">Instagram</a></li>
+          <li><a href="https://tiktok.com/@sagalune" rel="noopener">TikTok</a></li>
+          <li><a href="https://x.com/sagalune" rel="noopener">X</a></li>
+          <li><a href="https://youtube.com/@sagalune" rel="noopener">YouTube</a></li>
+          <li><a href="https://linkedin.com/company/sagalune" rel="noopener">LinkedIn</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Contact</h5>
+        <ul>
+          <li><a href="mailto:hello@sagalune.com">hello@sagalune.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2026 Sagalune</div>
+      <div class="legal">
+        <a href="/privacy">Privacy</a>
+        <a href="/terms">Terms</a>
+        <a href="/unsubscribe">Unsubscribe</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+/* ========== FORM ========== */
+const form = document.getElementById('waitlist-form');
+const emailInput = document.getElementById('email');
+
+form.addEventListener('submit', async (e) => {
+  e.preventDefault();
+  const value = emailInput.value.trim();
+  const valid = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value);
+  form.classList.remove('error');
+  if (!valid) {
+    form.classList.add('error');
+    return;
+  }
+
+  const submitBtn = form.querySelector('button[type="submit"]');
+  const originalLabel = submitBtn.textContent;
+  submitBtn.disabled = true;
+  submitBtn.textContent = 'Joining…';
+
+  try {
+    const res = await fetch('/api/waitlist', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email: value })
+    });
+
+    if (!res.ok) {
+      form.classList.add('error');
+      const errorEl = form.querySelector('.waitlist-error');
+      if (errorEl) {
+        const payload = await res.json().catch(() => ({}));
+        errorEl.textContent = payload.error || 'Something went wrong. Please try again.';
+      }
+      return;
+    }
+
+    const count = parseInt(document.getElementById('waitlist-count').textContent.replace(/,/g, ''), 10) || 1247;
+    document.getElementById('waitlist-count').textContent = (count + 1).toLocaleString();
+    const slot = parseInt(document.getElementById('slot-count').textContent, 10) || 153;
+    document.getElementById('slot-count').textContent = Math.max(slot - 1, 0);
+    document.getElementById('success-slot').textContent = (500 - Math.max(slot - 1, 0));
+    form.classList.add('success');
+  } catch (err) {
+    form.classList.add('error');
+    const errorEl = form.querySelector('.waitlist-error');
+    if (errorEl) errorEl.textContent = 'Network error. Please try again.';
+  } finally {
+    submitBtn.disabled = false;
+    submitBtn.textContent = originalLabel;
+  }
+});
+
+emailInput.addEventListener('input', () => form.classList.remove('error'));
+
+/* ========== REVEAL ON SCROLL ========== */
+const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+if (prefersReducedMotion) {
+  document.querySelectorAll('.reveal, .reveal-stagger').forEach(el => el.classList.add('in'));
+  document.body.classList.remove('motion-on');
+} else {
+  document.body.classList.add('motion-on');
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('in');
+        io.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.15, rootMargin: '0px 0px -50px 0px' });
+  document.querySelectorAll('.reveal, .reveal-stagger').forEach(el => io.observe(el));
+}
+
+/* ========== PROGRESS BAR ========== */
+const bar = document.getElementById('bar-fill');
+if (bar) {
+  const barObs = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        bar.style.width = '69.4%';
+        barObs.disconnect();
+      }
+    });
+  }, { threshold: 0.3 });
+  barObs.observe(bar);
+}
+</script>
+
+</body>
+</html>
