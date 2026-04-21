@@ -81,6 +81,8 @@
     <p class="subhead">AI narration of the places you drive past — hands-free, in real time, wherever you go.</p>
 
     <form class="waitlist" id="waitlist-form" novalidate>
+      <!-- Honeypot: hidden from real users, bots fill it and get silently dropped -->
+      <input type="text" id="honeypot" name="honeypot" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;top:-9999px;height:1px;width:1px;opacity:0;pointer-events:none;">
       <div class="row">
         <input type="email" id="email" name="email" placeholder="your@email.com" required autocomplete="email">
         <button type="submit">Join the waitlist</button>
@@ -314,10 +316,12 @@ form.addEventListener('submit', async (e) => {
   submitBtn.textContent = 'Joining…';
 
   try {
+    const honeypotValue = document.getElementById('honeypot')?.value || '';
+
     const res = await fetch('/api/waitlist', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ email: value })
+      body: JSON.stringify({ email: value, honeypot: honeypotValue })
     });
 
     if (!res.ok) {

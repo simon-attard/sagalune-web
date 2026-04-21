@@ -5,5 +5,8 @@
   "description": "Sagalune pre-launch waitlist landing page",
   "engines": {
     "node": ">=20.x"
+  },
+  "devDependencies": {
+    "vercel": "^51.8.0"
   }
 }
