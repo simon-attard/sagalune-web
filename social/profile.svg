@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <!-- Sagalune placeholder profile image
+       Forest Green background, Amber Gold capital S in Playfair Display.
+       1:1 square, safe for avatars that crop to a circle. -->
+  <rect width="1024" height="1024" fill="#2D6A4F"/>
+  <text x="512" y="512"
+        font-family="Playfair Display, Georgia, serif"
+        font-weight="700"
+        font-size="720"
+        fill="#F4A261"
+        text-anchor="middle"
+        dominant-baseline="central">S</text>
+</svg>
